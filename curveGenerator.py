@@ -6,13 +6,13 @@ import os, re
 import subprocess as sp
 os.system("cls") 
 
-projDir = os.path.join("D:\\1-FCMS\\01-CraTE\\06-fromMubeen\\Sampaul","Work")
+projDir = os.path.join("D:\\Sampaul","Work")
 print projDir
 
 if not os.path.exists(projDir):
 	os.mkdir(projDir)
 
-includeFilesFolderPath = "D:\\1-FCMS\\01-CraTE\\06-fromMubeen\\Sampaul\\includes"
+includeFilesFolderPath = "D:\\Sampaul\\includes"
 ### SPECIFY THE LOAD NAMES
 loadsNameList = ["Tension", "Compression", "TorsionXpos", "TorsionXneg", "BendingYpos", "BendingYneg", "BendingZpos", "BendingZneg"]
 
