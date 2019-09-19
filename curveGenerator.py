@@ -18,14 +18,14 @@ loadsNameList = ["Tension", "Compression", "TorsionXpos", "TorsionXneg", "Bendin
 
 ### SPECIFY THE BOUNDARY CONDITIONS INCLUDE FILES:
 loadIncludeFiles = {
-    "Tension"    : os.path.join(includeFilesFolderPath,"include_bend_Y_neg.dyn"),
-    "Compression": os.path.join(includeFilesFolderPath,"include_bend_Y_pos.dyn"),
-    "TorsionXpos": os.path.join(includeFilesFolderPath,"include_bend_Z_neg.dyn"),
-    "TorsionXneg": os.path.join(includeFilesFolderPath,"include_bend_Z_pos.dyn"),
-    "BendingYpos": os.path.join(includeFilesFolderPath,"include_compression.dyn"),
-    "BendingYneg": os.path.join(includeFilesFolderPath,"include_rot_X_neg.dyn"),
-    "BendingZpos": os.path.join(includeFilesFolderPath,"include_rot_X_pos.dyn"),
-    "BendingZneg": os.path.join(includeFilesFolderPath,"include_tension.dyn")
+    "Tension"    : os.path.join(includeFilesFolderPath,"include_tension.dyn"),
+    "Compression": os.path.join(includeFilesFolderPath,"include_compression.dyn"),
+    "TorsionXpos": os.path.join(includeFilesFolderPath,"include_rot_X_pos.dyn"),
+    "TorsionXneg": os.path.join(includeFilesFolderPath,"include_rot_X_neg.dyn"),
+    "BendingYpos": os.path.join(includeFilesFolderPath,"include_bend_Y_pos.dyn"),
+    "BendingYneg": os.path.join(includeFilesFolderPath,"include_bend_Y_neg.dyn"),
+    "BendingZpos": os.path.join(includeFilesFolderPath,"include_bend_Z_pos.dyn"),
+    "BendingZneg": os.path.join(includeFilesFolderPath,"include_bend_Z_neg.dyn")
     }
    
 def createDynaMesh(meshdir):  
